@@ -59,8 +59,8 @@ nvidia-cublas-cu11==11.10.3.66
 nvidia-cuda-nvrtc-cu11==11.7.99
 nvidia-cuda-runtime-cu11==11.7.99
 nvidia-cudnn-cu11==8.5.0.96
-nvidia-pyindex==1.0.9
-nvidia-tensorrt==8.4.3.1
+nvidia-pyindex
+nvidia-tensorrt
 oauthlib==3.2.2
 opencv-python==4.7.0.68
 openpyxl==3.0.10
