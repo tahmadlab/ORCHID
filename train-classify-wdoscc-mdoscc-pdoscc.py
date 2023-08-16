@@ -173,8 +173,9 @@ def model(masterpath, model_type):
 
                 if model_type == 'NASNetMobile':
                         model = NASNetMobile(
+                                weights='imagenet',
                                 include_top=False,
-                                input_shape=(224,224,3)
+                                input_shape=(300,300,3)
                                 )
                         for layer in model.layers:
                                 layer.trainable = True
